@@ -1,0 +1,31 @@
+{
+  "name": "apollo-upload-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "apollo-upload-server": "^2.0.4",
+    "body-parser": "^1.18.2",
+    "eslint-config-equimper": "https://github.com/EQuimper/eslint-config-equimper.git",
+    "express": "^4.16.0",
+    "fs": "^0.0.1-security",
+    "graphql": "^0.11.4",
+    "graphql-server-express": "^1.1.2",
+    "graphql-tools": "^1.2.3",
+    "lowdb": "^1.0.0",
+    "mkdirp": "^0.5.1",
+    "shortid": "^2.2.8"
+  }
+}
